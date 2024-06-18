@@ -43,9 +43,9 @@ function Navbar() {
   };
 
   const navOptions = [
+    { name: "Play", route: "play" },
     { name: "Projects", route: "featured-project" },
     { name: "About Me", route: "about-me" },
-    { name: "Play", route: "play" },
     { name: "Contact", route: "contact" },
     { name: "Hire me", route: "" },
   ];
@@ -123,7 +123,7 @@ function Navbar() {
           resNav ? "fixed" : "opacity-0"
         } w-[100vw] h-screen bg-zinc-900 transition ease-in-out duration-500 ${
           resNav ? "-translate-y-0" : "-translate-y-full"
-        }  z-[999] `}
+        }   z-[999] `}
       >
         <div className="Mobile-Nav fixed bg-zinc-900 opacity-80 z-[999] w-full px-[4vw] py-8 font-NEUEMONTREAL max-md:pt-6 max-md:pb-4 max-md:px-8">
           <div className="w-full flex justify-between items-center">
@@ -146,17 +146,23 @@ function Navbar() {
           </div>
         </div>
         <div className="w-full mt-48 px-20  flex flex-col items-center">
-          {["Services", "OurWork", "About Us", "Insights", "Contact"].map(
-            (item, idx) => {
-              return (
-                <div key={idx} className="masker flex items-center">
-                  <a className="uppercase font-FOUNDERSGROTESK  text-nowrap tracking-tight leading-[6.6vw] text-[9vw] max-md:text-[20vw] max-md:leading-[13.5vw]">
-                    {item}
-                  </a>
-                </div>
-              );
-            }
-          )}
+          {navOptions.map((item, idx) => {
+            return (
+              <div
+                key={idx}
+                onClick={() => {
+                  scrollToComponent(item.route);
+                  setResNav(false);
+                  document.body.style.overflowY = "scroll";
+                }}
+                className="masker flex items-center"
+              >
+                <a className="uppercase font-FOUNDERSGROTESK  text-nowrap tracking-tight leading-[6.6vw] text-[9vw] max-md:text-[20vw] max-md:leading-[13.5vw]">
+                  {item.name}
+                </a>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

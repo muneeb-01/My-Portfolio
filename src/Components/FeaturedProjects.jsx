@@ -80,7 +80,7 @@ function FeaturedProjects() {
               muted
               src="./content/videos/nodo-cover-big.mp4"
             ></video>
-            <div className="page3-crsr size-[11vw] scale-[0] opacity-[.75] rounded-full bg-[#4F5BFF] absolute top-0 left-0"></div>
+            <div className="page3-crsr size-[9vw] scale-[0] opacity-[.75] rounded-full bg-[#4F5BFF] absolute top-0 left-0"></div>
           </div>
         </div>
         <div className="section w-full  flex justify-between  pt-[13vh] px-[10vw] items-center max-[1025px]:flex-col max-[1025px]:py-[3vh]">
@@ -105,7 +105,7 @@ function FeaturedProjects() {
               muted
               src="./content/videos/afrotech-cover-big.mp4"
             ></video>
-            <div className="page3-crsr size-[11vw] scale-[0] opacity-[.75] rounded-full bg-[#4F5BFF] absolute top-0 left-0"></div>
+            <div className="page3-crsr size-[9vw] scale-[0] opacity-[.75] rounded-full bg-[#4F5BFF] absolute top-0 left-0"></div>
           </div>
         </div>
       </div>
