@@ -45,21 +45,15 @@ function Footer() {
         <div className="mt-[2.8vw] ">
           <p className="text-[1.1vw] max-lg:text-[2.6vw]">L:</p>
           <div className="mt-[1.5vw] flex flex-col">
-            <a href="" className="text-[1.1vw] max-lg:text-[1.9vw]">
-              B-412 Azizabad,
-            </a>
-            <a href="" className="text-[1.1vw] max-lg:text-[1.9vw]">
-              Bhangoria Town,
-            </a>
-            <a href="" className="text-[1.1vw] max-lg:text-[1.9vw]">
-              Karachi,
-            </a>
+            <a className="text-[1.1vw] max-lg:text-[1.9vw]">B-412 Azizabad,</a>
+            <a className="text-[1.1vw] max-lg:text-[1.9vw]">Bhangoria Town,</a>
+            <a className="text-[1.1vw] max-lg:text-[1.9vw]">Karachi,</a>
           </div>
         </div>
         <div className="mt-[2.8vw] ">
           <p className="text-[1.1vw] max-lg:text-[2.6vw]">E:</p>
           <div className="mt-[1.5vw] flex flex-col">
-            <a href="" className="text-[1.1vw] max-lg:text-[1.9vw]">
+            <a className="text-[1.1vw] max-lg:text-[1.9vw]">
               muneerahmed8556@gmail.com
             </a>
           </div>

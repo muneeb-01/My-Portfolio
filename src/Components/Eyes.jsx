@@ -55,12 +55,12 @@ function Eyes() {
         <div className="absolute top-1/2 left-1/2  -translate-x-[50%] flex items-center justify-evenly -translate-y-[50%] gap-10 max-md:gap-[7vw]">
           <div className="flex justify-center items-center w-[14vw] h-[14vw] rounded-full bg-zinc-100 max-xl:size-[19vw] max-md:size-[21vw] ">
             <div className="black-eye w-[9vw] relative flex items-center justify-center h-[9vw] rounded-full bg-black max-xl:size-[11vw] max-md:size-[13vw]">
-              <div className="pupil absolute w-[1.8vw] h-[1.8vw] max-md:size-[4vw]  rounded-full bg-zinc-100"></div>
+              <div className="pupil absolute w-[1.8vw] h-[1.8vw] max-md:size-[4vw]  rounded-full shadow-inner bg-zinc-100"></div>
             </div>
           </div>
           <div className="flex justify-center items-center w-[14vw] h-[14vw] rounded-full bg-zinc-100 max-xl:size-[19vw] max-md:size-[21vw] ">
             <div className="black-eye w-[9vw] relative flex items-center justify-center h-[9vw] rounded-full bg-black max-xl:size-[11vw] max-md:size-[13vw]">
-              <div className="pupil w-[1.8vw] h-[1.8vw] max-md:size-[4vw]  rounded-full bg-zinc-100"></div>
+              <div className="pupil w-[1.8vw] h-[1.8vw] max-md:size-[4vw]  rounded-full bg-zinc-100 shadow-inner"></div>
             </div>
           </div>
         </div>

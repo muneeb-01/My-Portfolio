@@ -34,7 +34,6 @@ function Navbar() {
   }, [prevScrollPos]);
 
   const scrollToComponent = (id) => {
-    console.log(id);
     const element = document.getElementById(id);
 
     if (element) {
