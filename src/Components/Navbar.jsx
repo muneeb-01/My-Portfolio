@@ -130,6 +130,11 @@ function Navbar() {
             <div className="logo opacity-100 ">
               <img
                 className="text-white size-10 max-sm:size-6"
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                  setResNav(false);
+                  document.body.style.overflowY = "scroll";
+                }}
                 src="/image/MuneebLogo.png"
                 alt=""
               />
